@@ -1,0 +1,29 @@
+{
+    "name": "alv4/optimizer",
+    "description": "Test optimization job",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "alv_4@ukr.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "7.*"
+    },
+    "require-dev":  {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Optimizer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
